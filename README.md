@@ -171,5 +171,5 @@ NPX funciona de la siguiente manera:
     Si está instalado lo ejecuta
 Con el parámetro --no-install podemos indicarle a NPX que si el paquete no existe no lo instale.
 
-
+Emacs5 vs Emacs6
 
