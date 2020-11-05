@@ -263,8 +263,10 @@ Diferencias entre ES5 y ES6.
       import ES6
 
 
-diferencias function y arrow function
+Diferencias function y arrow function
+   https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Funciones/Arrow_functions
+   Una de las razones por las que se introdujeron las funciones flecha fue para eliminar complejidades del ámbito (this) y hacer que la ejecución de funciones sea mucho más intuitiva.
 
-
-
+El modo estricto de JavaScript: qué es y para qué sirve 
+   Una forma de trabajar con JavaScript bastante común en código profesional es utilizar siempre por defecto el Modo Estricto de este lenguaje. Se trata de una variante del lenguaje que es menos permisiva con ciertos tipos de comportamientos en el código y que hace que éste se comporte de un modo más estricto, como su propio nombre indica.
 
