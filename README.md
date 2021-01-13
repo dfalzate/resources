@@ -166,6 +166,29 @@ leer  promises
       Async
       Docker
       ApiRest JSON
+      
+promises
+function divide(dividendo, divisor) {
+  return new Promise((resolve, reject) => {
+    if (divisor === 0) {
+      reject(new Error('No se puede dividir entre 0'));
+    } else {
+      resolve(dividendo/divisor);
+    }
+  });
+}
+
+async function test() {
+  // esperamos por la respuesta
+  try {
+    const result = await divide(5, 0);
+    console.log(result);
+  } catch (err) {
+    console.error(err.message);
+  }
+}
+
+test();
 
 diferencia npm npx
 NPM es un gestor de paquetes de Node.js cuyo objetivo es gestionar los paquetes y las dependencias. Significa que podemos determinar en un fichero los paquetes que necesitamos (package.json) y luego instalar las dependencias que hay en él (npm install).
@@ -176,6 +199,6 @@ NPX funciona de la siguiente manera:
     Si está instalado lo ejecuta
 Con el parámetro --no-install podemos indicarle a NPX que si el paquete no existe no lo instale.
 
-Emacs5 vs Emacs6
-
+Ecmascript5 vs Ecmascript6
+https://medium.com/@jagogutierrez/ecmascript-es6-diferencias-notables-al-es5-83d3e33ae201
 
