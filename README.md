@@ -202,3 +202,6 @@ Con el parámetro --no-install podemos indicarle a NPX que si el paquete no exis
 Ecmascript5 vs Ecmascript6
 https://medium.com/@jagogutierrez/ecmascript-es6-diferencias-notables-al-es5-83d3e33ae201
 
+IIFE (Immediately Invoked Function Expression)
+
+
